@@ -1,0 +1,16 @@
+{
+  "name": "cicd-container-pipeline",
+  "version": "1.0.0",
+  "description": "Production microservice demo with automated CI/CD pipeline",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test tests/server.test.js",
+    "lint": "node --check src/server.js"
+  },
+  "keywords": ["devops", "cicd", "docker", "github-actions"],
+  "author": "Mohammed Ibrahim",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
